@@ -1,0 +1,23 @@
+�e�W<?php exit; ?>a:6:{s:10:"last_error";s:0:"";s:10:"last_query";s:98:"SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (1747) ORDER BY meta_id ASC";s:11:"last_result";a:7:{i:0;O:8:"stdClass":3:{s:7:"post_id";s:4:"1747";s:8:"meta_key";s:5:"_form";s:10:"meta_value";s:326:"[hidden hidden-259 id:Mitarbeitername]
+
+<p>Ihr Name (Pflichtfeld)<br />
+    [text* your-name] </p>
+
+<p>Ihre E-Mail-Adresse (Pflichtfeld)<br />
+    [email* your-email] </p>
+
+<p>Betreff<br />
+    [text your-subject] </p>
+
+<p>Ihre Nachricht<br />
+    [textarea your-message] </p>
+[recaptcha size:compact]
+<p>[submit "Senden"]</p>";}i:1;O:8:"stdClass":3:{s:7:"post_id";s:4:"1747";s:8:"meta_key";s:5:"_mail";s:10:"meta_value";s:426:"a:8:{s:7:"subject";s:32:"[your-subject] "Kontaktformular"";s:6:"sender";s:26:"[your-name] <[your-email]>";s:4:"body";s:113:"Dies ist eine Nachricht von:
+
+[your-name]
+Email: [your-email]
+
+Betreff: [your-subject]
+
+Nachricht:
+[your-message]";s:9:"recipient";s:59:"<kontakt@post.pfalzsolar.de>,<steinbach.kim@googlemail.com>";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:1;s:13:"exclude_blank";b:0;}";}i:2;O:8:"stdClass":3:{s:7:"post_id";s:4:"1747";s:8:"meta_key";s:7:"_mail_2";s:10:"meta_value";s:208:"a:9:{s:6:"active";b:0;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:4:"body";s:0:"";s:9:"recipient";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}";}i:3;O:8:"stdClass":3:{s:7:"post_id";s:4:"1747";s:8:"meta_key";s:9:"_messages";s:10:"meta_value";s:1841:"a:23:{s:12:"mail_sent_ok";s:54:"Vielen Dank für deine Mitteilung. Sie wurde versandt.";s:12:"mail_sent_ng";s:111:"Beim Versuch, deine Mitteilung zu versenden, ist ein Fehler aufgetreten. Bitte versuche es später noch einmal.";s:16:"validation_error";s:91:"Ein oder mehrere Felder sind fehlerhaft. Bitte überprüfe sie und versuche es noch einmal.";s:4:"spam";s:111:"Beim Versuch, deine Mitteilung zu versenden, ist ein Fehler aufgetreten. Bitte versuche es später noch einmal.";s:12:"accept_terms";s:73:"Du musst die Bedingungen akzeptieren bevor du deine Mitteilung absendest.";s:16:"invalid_required";s:26:"Das Feld ist erforderlich.";s:16:"invalid_too_long";s:21:"Das Feld ist zu lang.";s:17:"invalid_too_short";s:21:"Das Feld ist zu kurz.";s:12:"invalid_date";s:31:"Das Datumsformat ist ungültig.";s:14:"date_too_early";s:47:"Das Datum liegt vor dem ersten erlaubten Datum.";s:13:"date_too_late";s:48:"Das Datum liegt nach dem letzen erlaubten Datum.";s:13:"upload_failed";s:57:"Ein unbekannter Fehler trat beim Hochladen der Datei auf.";s:24:"upload_file_type_invalid";s:64:"Du hast nicht die Berechtigung, Dateien dieses Typs hochzuladen.";s:21:"upload_file_too_large";s:23:"Die Datei ist zu groß.";s:23:"upload_failed_php_error";s:48:"Es trat ein Fehler beim Hochladen der Datei auf.";s:14:"invalid_number";s:31:"Das Zahlenformat ist ungültig.";s:16:"number_too_small";s:48:"Die Zahl ist niedriger als das erlaubte Minimum.";s:16:"number_too_large";s:47:"Die Zahl ist größer als das erlaubte Maximum.";s:23:"quiz_answer_not_correct";s:35:"Die Antwort zu dem Quiz ist falsch.";s:17:"captcha_not_match";s:33:"Ihr eingegebener Code ist falsch.";s:13:"invalid_email";s:45:"Die eingegebene E-Mail-Adresse ist ungültig.";s:11:"invalid_url";s:22:"Die URL ist ungültig.";s:11:"invalid_tel";s:32:"Die Telefonnummer ist ungültig.";}";}i:4;O:8:"stdClass":3:{s:7:"post_id";s:4:"1747";s:8:"meta_key";s:20:"_additional_settings";s:10:"meta_value";s:0:"";}i:5;O:8:"stdClass":3:{s:7:"post_id";s:4:"1747";s:8:"meta_key";s:7:"_locale";s:10:"meta_value";s:5:"de_DE";}i:6;O:8:"stdClass":3:{s:7:"post_id";s:4:"1747";s:8:"meta_key";s:14:"_config_errors";s:10:"meta_value";s:31:"a:1:{s:11:"mail.sender";i:103;}";}}s:8:"col_info";a:3:{i:0;O:8:"stdClass":13:{s:4:"name";s:7:"post_id";s:5:"table";s:11:"wp_postmeta";s:3:"def";s:0:"";s:10:"max_length";i:4;s:8:"not_null";i:1;s:11:"primary_key";i:0;s:12:"multiple_key";i:1;s:10:"unique_key";i:0;s:7:"numeric";i:1;s:4:"blob";i:0;s:4:"type";s:3:"int";s:8:"unsigned";i:1;s:8:"zerofill";i:0;}i:1;O:8:"stdClass":13:{s:4:"name";s:8:"meta_key";s:5:"table";s:11:"wp_postmeta";s:3:"def";s:0:"";s:10:"max_length";i:20;s:8:"not_null";i:0;s:11:"primary_key";i:0;s:12:"multiple_key";i:1;s:10:"unique_key";i:0;s:7:"numeric";i:0;s:4:"blob";i:0;s:4:"type";s:6:"string";s:8:"unsigned";i:0;s:8:"zerofill";i:0;}i:2;O:8:"stdClass":13:{s:4:"name";s:10:"meta_value";s:5:"table";s:11:"wp_postmeta";s:3:"def";s:0:"";s:10:"max_length";i:1841;s:8:"not_null";i:0;s:11:"primary_key";i:0;s:12:"multiple_key";i:0;s:10:"unique_key";i:0;s:7:"numeric";i:0;s:4:"blob";i:1;s:4:"type";s:4:"blob";s:8:"unsigned";i:0;s:8:"zerofill";i:0;}}s:8:"num_rows";i:7;s:10:"return_val";i:7;}

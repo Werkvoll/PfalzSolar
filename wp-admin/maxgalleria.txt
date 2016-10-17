@@ -1,0 +1,2 @@
+02/12/2016 01:44:44 pm - copy to /home/dawolke/dev/workspace/PfalzSolar/wp-content/themes/PfalzSolar/single-maxgallery.php successful
+02/12/2016 01:44:44 pm - permalinks updated

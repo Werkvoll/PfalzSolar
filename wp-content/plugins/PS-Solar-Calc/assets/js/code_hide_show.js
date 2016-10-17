@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var o=jQuery("#Code_enabler"),e=!0;o.on("click",function(){e?($("#code_plugin_box").hide("500",function(){$("#code_plugin_box").delay("500").css({}).show("500")}),e=!1):($("#code_plugin_box").hide("500",function(){$("#code_plugin_box").delay("500").show("500")}),e=!0)})});

@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("#login > h1").html('<a href="http://werkvoll.de/" title="Powered by Werkvoll" tabindex="-1">PfalzSolar</a>');});

@@ -1,0 +1,143 @@
+
+Map data ©2016
+#Terms of Use
+#Enter a location
+Report a map error
+
+
+
+Map
+Satellite
+
+Map Style Add
+Style 0
+Feature type:	road
+Element type:	all
+Visibility:	off
+Style 1
+Feature type:	poi
+Element type:	all
+Visibility:	off
+Style 2
+Feature type:	water
+Element type:	geometry
+Visibility:	on
+Color:	#808080
+Style 3
+Feature type:	administrative.locality
+Element type:	all
+Visibility:	off
+Style 4
+Feature type:	landscape
+Element type:	all
+Visibility:	off
+Style 5
+Feature type:	administrative.country
+Element type:	labels.text.stroke
+Visibility:	off
+Color:	#ffff9b
+Style 6
+Feature type:	landscape
+Element type:	geometry.fill
+Visibility:	on
+Color:	#b3ff99
+Hue:	#ff8800
+Style 7
+Feature type:	administrative
+Element type:	labels
+Visibility:	off
+Style 8
+Feature type:	transit
+Element type:	all
+Visibility:	off
+Style 9
+Feature type:	all
+Element type:	all
+Show JSON  Static Map Help
+Selectors Reset
+Feature type
+All  AdministrativeLandscapePoint of interestRoadTransitWater    
+Element type
+All  GeometryLabels    
+Stylers
+	Visibility	
+ On  Simplified  Off
+	Invert lightness	
+ 	Color	
+ 
+R	
+
+G	
+
+B	
+
+	Weight	
+ 
+ 	Hue	
+ 
+ 	Saturation	
+ 
+ 	Lightness	
+ 
+ 	Gamma	
+ 
+ 
+Google Maps API v3 Styled Maps JSON
+
+[
+  {
+    "featureType": "road",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "poi",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#808080" },
+      { "visibility": "on" }
+    ]
+  },{
+    "featureType": "administrative.locality",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "landscape",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "administrative.country",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      { "color": "#ffff9b" },
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "landscape",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#b3ff99" },
+      { "hue": "#ff8800" }
+    ]
+  },{
+    "featureType": "administrative",
+    "elementType": "labels",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "transit",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+  }
+]

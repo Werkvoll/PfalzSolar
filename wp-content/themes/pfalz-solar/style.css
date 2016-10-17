@@ -1,0 +1,2390 @@
+/*
+ Theme Name:    PfalzSolar Theme (a Child of Divi)
+ Theme URI:      http://www.elegantthemes.com/gallery/divi/
+ Description:    PfalzSolar Theme
+ Author:         DaWolke /Werkvoll
+ Author URI:     http://www.dawolke.de
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+@import url("./slick/slick.css");
+@import url("./slick/slick-theme.css");
+/* =Theme customization starts here--------------------------------- */
+
+/*Slogan im Header Bild*/
+#header_slogan{
+	position: absolute;
+    top: 69vh;
+    font-size: 32px;
+    font-weight: 300;
+}
+/*START GENERAL STYLING */
+
+/*NO ORANGE MENU*/
+#top-menu li.current-menu-item > a,#top-menu li.current-menu-ancestor > a{
+    color:rgba(0, 0, 0, 0.6)!important;
+}
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+    display: none !important;
+}
+
+.container::before {
+    display: none;
+}
+footer#main-footer {
+
+background-image: radial-gradient(farthest-corner at 95% 27% , #eb7c47 -6%,#e74d0f 95%);
+	
+}
+
+.footer-widget li:before {
+display:none;
+	
+}
+
+#footer-info{
+	display:none;
+}
+
+/* Language Switcher*/
+
+img.wpml_flags {
+    right: -8vw!important;
+    position: absolute;
+    top: -30px;
+    border: 0px solid white!important;
+    min-width: 25px;
+    min-height: 16px;
+}
+
+/* Language Switcher END*/
+
+
+.scroll-down.et-pb-icon {
+    font-family: Helvetica;
+    font-weight: 100;
+    font-size: 20px;
+}
+.scroll-down.et-pb-icon:before {
+    content: "SCROLL DOWN";
+    visibility: visible;
+    display: inline-block;
+}
+.scroll-down.et-pb-icon:after {
+    visibility: visible;
+    position: absolute;
+    top: 2em;
+    left: 38%;
+    font-family: ETmodules;
+    font-weight: 300;
+    content: "3";
+    display: inline-block;
+}
+.button_custom_orange {} .js-wpv-layout-responsive {
+    margin: 0 auto 0 auto;
+    margin-top: 22px;
+    height: 100%;
+}
+.orange h1,
+.orange h2,
+.orange h3,
+.orange h4,
+.orange p,
+span.orange {
+    /*Text in orange*/
+    
+    color: rgb(232, 78, 15)!important;
+}
+body {
+    font-family: Acumin-Pro !important;
+}
+p {
+    font-family: "acumin-pro" !important;
+    font-size: 14px !important;
+    font-weight: 400!important;
+    font-style: normal!important;
+}
+h1 {
+    font-family: "acumin-pro" !important;
+    font-size: 60px !important;
+    font-weight: 500!important;
+    font-style: normal!important;
+}
+h2 {
+    font-family: "acumin-pro" !important;
+    font-size: 30px !important;
+    font-weight: 500!important;
+    font-style: normal!important;
+}
+h4 {
+    font-family: "acumin-pro" !important;
+    font-size: 24px !important;
+    font-weight: 200!important;
+    font-style: normal!important;
+}
+#more_icon {
+    margin-right: 6px;
+    font-family: ETmodules;
+    font-style: initial;
+}
+span.et_pb_more_button {
+    color: #156fa8!important;
+}
+.item span.et_pb_more_button {
+    color: #156fa8!important;
+    background-color: white !important;
+    border-radius: 10px!important;
+    margin-top: 24%;
+    margin-left: 41%;
+}
+.et-pb-contact-message p {
+    color: white;
+}
+/*START MENU STYLING */
+
+img.PSMenu {
+    min-width: 0px!important;
+}
+#top-menu .menu-item-has-children > a:first-child:after,
+#et-secondary-nav .menu-item-has-children > a:first-child:after {
+    content: ""!important;
+}
+/*END MENU STYLING */
+/*END GENERAL STYLING */
+/*START remove all table boarders */
+
+.entry-content table,
+body.et-pb-preview #main-content .container table {
+    border: 0px;
+}
+.entry-content tr td,
+body.et-pb-preview #main-content .container tr td {
+    border: 0px;
+}
+/* END remove all table boarders */
+/*START We_are STYLING */
+/*Bild SeitenRand*/
+/*Button mehr erfahren position*/
+
+#wir_sind_mehr_erfahren_position .et_pb_more_button {
+    font-size: 18px!important;
+    border: 3px solid #ffffff!important;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.et_pb_more_button {
+    font-size: 18px;
+}
+#wir_sind_mehr_erfahren_position {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    color: white!important;
+    border-radius: 10px!important;
+}
+
+
+
+/*Versicherungen Content Seite*/
+
+#versicherungen_style .et_pb_pricing_table{
+	    border: 3px solid #e85a1f!important;
+    border-radius: 18px;
+}
+
+#versicherungen_style .et_pb_pricing_heading{
+	-webkit-border-top-left-radius: 15px;
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+
+}
+
+#versicherungen_style  .et_pb_pricing_table_2 .et_pb_pricing_heading{
+	background-color:#ff804b;
+}
+
+#versicherungen_style  .et_pb_pricing_table_1 .et_pb_pricing_heading{
+	background-color:#ee5414;
+}
+
+#versicherungen_style  .et_pb_pricing_table_0 .et_pb_pricing_heading{
+	background-color:#ecb197;
+}
+
+#versicherungen_style .et_pb_sum{
+	    font-size: 30px;
+    font-weight: 900;
+  
+}
+#versicherungen_style   .et_pb_pricing_heading h2{
+	    font-size: 20px!important;
+}
+
+#versicherungen_style  .et_pb_pricing_table_button{
+	color:white;
+	font-weight: 900;
+    font-size: 26px;
+    background-color:#ee5414;
+}
+
+#versicherungen_style_underline p{
+	font-size:20px!important;
+
+}
+
+#versicherungen_style .et_pb_pricing li{
+	text-align:center;
+	padding:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#versicherungen_style .et_pb_pricing li span h3{
+	padding-bottom:10px;
+}
+
+#versicherungen_style h4{
+	text-align: justify;
+    font-size: 18px !important;
+    font-weight: 100!important;
+}
+
+.contact_form_versicherung input.text{
+	width:100%;
+}
+
+#versicherung_message{
+	width:100%;
+}
+#versicherung_radio{
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.et_pb_pricing_tables_0 .et_pb_frequency{
+	font-size:24px!important;
+}
+
+.contact_form_versicherung{
+	float:left;
+	width:50%;
+	padding-bottom: 2%;
+}
+
+.versicherung_beitragsslider .et_pb_slide_description{
+	    font-size: 32px !important;
+}
+
+input[type=text], input[type=password], input[type=tel], input[type=email], input.text, input.title, textarea, select{
+	padding:15px;
+	width:98%;
+}
+
+#versicherung_message input[type=text], #versicherung_message input[type=password],#versicherung_message input[type=tel],#versicherung_message input[type=email],#versicherung_message input.text,#versicherung_message input.title, #versicherung_message textarea, #versicherung_messageselect{
+	width:99%;
+}
+
+.span.wpcf7-list-item, .first, .last{
+ 	margin-left:0em!important;
+ 	margin-right:1%;
+ }
+
+/*Versicherungen Content Seite END*/
+
+
+
+/*Button mehr erfahren position END*/
+
+.We_are_text {
+    margin-left: 7%;
+    margin-top: 5vh;
+    width: 75%;
+}
+.we_are_slide .et_pb_slide_description {
+    width: 30vw;
+    padding: 0;
+    padding-top: 10vh;
+    padding-right: 18vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+.we_are_slide h2 {
+    color: white;
+}
+.We_are_slide .et_pb_slide_description .et_pb_slide_title {
+    min-width: 55vw;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 12%;
+    display: flex;
+    background: rgb(232, 78, 15);
+    /* For browsers that do not support gradients */
+    
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+    /*Safari 5.1-6*/
+    
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+    /*Opera 11.1-12*/
+    
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+    /*Fx 3.6-15*/
+    
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+    /*Standard*/
+    
+    background-attachment: fixed;
+    font-size: 48px !important;
+    margin-left: -8px;
+}
+a.et-pb-arrow-prev, a.et-pb-arrow-next {
+    max-width: 30%;
+}
+.et_pb_slide_description .et_pb_slide_title {
+    background: rgb(232, 78, 15);
+    /* For browsers that do not support gradients */
+    
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+    /*Safari 5.1-6*/
+    
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+    /*Opera 11.1-12*/
+    
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+    /*Fx 3.6-15*/
+    
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+    /*Standard*/
+    
+    background-attachment: fixed;
+    font-size: 48px !important;
+    margin-left: 7px;
+}
+.We_are_wrap .et_pb_slide {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50% 100% !important;
+}
+.We_are_slide .et_pb_container.clearfix {
+    min-height: 595px;
+    /*min-width: 100vw;*/
+    
+    margin: 0 auto 0 auto;
+    /*margin-left: 24%;*/
+}
+p.We_are_text {
+    text-align: justify;
+}
+/*END We_are STYLING */
+/* START Testimonial styles */
+
+.testimonial_header {
+    color: rgb(232, 78, 15)!important;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 1% 0px!important;
+}
+.testimonial_outer {
+    margin: 0 auto 0 auto;
+    max-width: 75vw;
+    padding-left: 12, 5%;
+    padding-right: 12, 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+img.attachment-full.aligncenter.testimonial_image {} .testimonial_wrap {
+    min-height: 16vw;
+    max-width: 75vw;
+    max-height: 17vw;
+    position: relative;
+}
+.testimonial_img {
+    position: realtive;
+    width: 10vw;
+    min-height: 15vw;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    float: left;
+}
+
+.testimonial_img img {
+	border-radius:30px;
+}
+.quotesign {
+	right: 14%;
+    position: absolute;
+    quotes: '"' "”" "‘" "’";
+    margin-top: -100px;
+    padding-top: 0px;
+    min-width: 50px;
+    min-height: 100%;
+    padding-right: 15px;
+    font-size: 500px;
+    color: rgba(232, 78, 15,0.2);
+    float: left;
+    content: open-quote;
+}
+
+.testimonal {
+    margin-bottom: 25px;
+    min-height: 15vw;
+    padding: 25px;
+    padding-left: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 11vw;
+    border: inherit 2px #000000;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 60px;
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 60px;
+}
+span.testimonal {} p.testimonal {} p.testimonial_underscore {
+    padding-top: 1em;
+    font-style: italic !important;
+}
+/* END Testimonial styles */
+/* START Teamgrid */
+
+.We_are_team.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+    color: rgb(232, 78, 15);
+    width: 80%;
+    max-width: 800px;
+    margin: -3% auto;
+    padding: 0 !important;
+    position: relative;
+    top: 0px;
+}
+.Team {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    margin-top: 4%;
+    text-align: center;
+}
+.Team_header.orange.Solarprofis {
+    background-color: rgba(0, 0, 0, 0);
+}
+.Team_header.orange.Investorcontacs {
+    background-color: white;
+}
+.Team_header {
+    color: rgb(232, 78, 15)!important;
+    background-color: white;
+    width: 99vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 1% 0px!important;
+}
+table.Team_table.Solarprofis {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    
+}
+table.Team_table {
+    white-space: pre;
+}
+td.team_cell {} .Team_box {
+    border: white;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    white-space: normal;
+    border-width: 20px;
+}
+.Team_table.Solarprofis {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    white-space: pre;
+}
+
+
+.Team li.team_cell {
+    display: inline-block;
+    margin: 0 auto 0 auto !important;
+    padding: 4%;
+}
+.Investorcontacs li.team_cell {
+    padding: 2%;
+}
+.Team_overlay {
+    background: rgba(255, 255, 255, 1);
+    width: 260px;
+    height: 260px;
+    text-align: left;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease;
+    -moz-transition: opacity .5s ease;
+}
+.Team_box:hover .Team_overlay {
+    opacity: 0.75;
+}
+.Team_text {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 20px;
+    font-family: Helvetica;
+    font-weight: 100;
+    color: rgb(232, 78, 15);
+    font-size: 18px;
+    display: inline-block;
+}
+p.Team_name {
+    font-weight: 800!important;
+    font-size: large !important;
+    text-transform: uppercase;
+}
+p.Team_position {
+    top: -1em;
+    position: relative;
+    font-weight: 500 !important;
+    padding: 0px !important;
+}
+p.Team_slogan {
+    quotes: "“" "”" "‘" "’";
+}
+p.Team_slogan:before {
+    content: open-quote;
+}
+p.Team_slogan {
+    font-weight: 300;
+    font-style: italic!important;
+    top: -10px !important;
+    position: relative;
+}
+p.Team_slogan:after {
+    content: close-quote;
+}
+p.Team_telefon {
+    background-image: url('./images/mitarbeiter_phone_icon.png');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    /* width of the image plus a little extra padding */
+    
+    position: absolute;
+    display: block;
+    bottom: 30px;
+}
+p.Team_mail {
+    background-image: url('./images/mitarbeiter_mail_icon.png');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    /* width of the image plus a little extra padding */
+    
+    position: absolute;
+    display: block;
+    bottom: 10px;
+}
+/* END Teamgrid */
+/*START Project Slider CSS */
+/* START References hover */
+
+.slick-slider {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 510px;
+}
+.slick-track {
+    height: 0%;
+}
+.slick-prev:before,
+.slick-next:before {
+    /*margin-top:-87!important;*/
+    
+    color: rgba(255, 255, 255, 0.9);
+}
+div.slick-slide > div:first-child {
+    /* Obere Zeile */
+    
+    margin: 5px !important;
+    width: 900px;
+    float: right;
+    padding-right: 0%;
+}
+div.slick-slide > div:nth-child(2) {
+    /* Untere Zeile */
+    
+    margin: 5px !important;
+    width: 900px;
+    padding-left: 0%;
+}
+.slick-slide {
+    width: 50%;
+    height: auto;
+    padding: 0 10px;
+    margin: 0 auto 0 auto;
+    margin-bottom: 15px;
+}
+div.item {
+    vertical-align: middle;
+    margin-right: 5px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 49% !important;
+    height: 238px!important;
+}
+.slick-prev {
+    z-index: 9999!important;
+    left: -3vw;
+}
+.slick-next {
+    right: 0vw!important;
+}
+.slick-prev:before,
+.slick-next:before {
+    font-size: 50px!important;
+}
+.slick-prev,
+.slick-next {
+    top: 48% !important;
+}
+.ProjectText {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%!important;
+    height: 100%!important;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    opacity: 0!important;
+    border-radius: 10px;
+    -webkit-transition: opacity .5s ease;
+    -moz-transition: opacity .5s ease;
+    margin: 0px!important;
+    background-image: url('./images/portfolio_info_icon.png');
+    background-repeat: no-repeat;
+    background-position-x: 23px;
+    background-position-y: 30px;
+    /*moz*/background-position:23px 30px;
+
+
+    position: relative;
+    padding-top: 35px;
+    padding-left: 73px;
+    display: inline-block!important;
+}
+.ProjectText h2,
+h3,
+h4 {
+    color: black;
+    font-size: 20px;
+}
+h2#Projecttitle {
+    color: #156fa8!important;
+    font-size: 18px!important;
+    font-weight: 800!important;
+    text-transform: uppercase;
+}
+h3#Projectlocale {
+    top: -8px;
+    position: relative;
+    font-size: 16px;
+}
+h3#Projectsize {
+    top: 1.1em;
+    position: relative;
+    margin-top: -35px;
+}
+
+.item:hover .ProjectText {
+    opacity: 0.95!important;
+}
+.item et_pb_more_button et_pb_button blue {
+    background-color: red !important;
+}
+/* END References hover */
+
+span.Referenz_more {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 10%;
+    margin: 30%;
+    left: 40%;
+}
+.Reference_header {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 2% !important;
+    text-align: center;
+}
+.Reference_header h1 {
+    color: white;
+}
+/*END Project Slider CSS */
+/* START Promotion Styling */
+
+h2.Promo_Slider {
+    font-family: "acumin-pro" !important;
+    font-size: 18px !important;
+    font-weight: 500!important;
+    font-style: normal!important;
+}
+.Promo_Slider .et_pb_slide_description a.et_pb_more_button.et_pb_button {
+    background: rgb(232, 78, 15);
+    border-radius: 10px;
+    border-color: rgb(232, 78, 15);
+    padding: 20px;
+    margin: 5px;
+    float: right;
+    font-size: 18px !important;
+}
+.et_pb_button {
+    border-width: 0px!important;
+}
+.Promo_Slider .et_pb_slide_description a.et_pb_more_button.et_pb_button span {
+    font-weight: 100!important;
+    margin-left: 6px;
+}
+.Promo_Slider .et_pb_slide_description h2.et_pb_slide_title {
+    background: none!important;
+    min-width: 100%;
+    color: white!important;
+    font-size: 32px !important;
+    color: white;
+    text-align: left;
+}
+.Promo_Slider .et_pb_slide_content:before {} .Promo_Slider .et_pb_slide_content {
+    background: rgb(232, 78, 15);
+    min-height: 88px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+    font-family: "acumin-pro" !important;
+    font-size: 18px !important;
+    font-weight: 300!important;
+    font-style: normal!important;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.et_pb_slide_description {
+    padding-right: 0;
+    margin-left: 40%;
+}
+.et_pb_container.clearfix {
+    /* min-height: 100vh!important;*/
+    
+    width: 100%;
+    margin: 0 auto 0 auto;
+    /* margin-left: 30%;*/
+}
+.et_pb_post_slider.et_pb_bg_layout_dark {
+    /*  Promo Slider Background (white)*/
+    
+    background: none !important;
+}
+/* END Promotion Styling */
+/* START Content Slider Styling */
+
+h2.Content_Slider {
+    font-family: "acumin-pro" !important;
+    font-size: 18px !important;
+    font-weight: 500!important;
+    font-style: normal!important;
+}
+.Content_Slider .et_pb_slide_description a.et_pb_more_button.et_pb_button {
+    background: rgb(232, 78, 15);
+    border-radius: 10px;
+    border-color: rgb(232, 78, 15);
+    padding: 20px;
+    margin: 5px;
+    float: right;
+    font-size: 18px !important;
+}
+.et_pb_button {
+    border-width: 0px!important;
+}
+.Content_Slider .et_pb_slide_description a.et_pb_more_button.et_pb_button span {
+    font-weight: 100!important;
+    margin-left: 6px;
+}
+.Content_Slider .et_pb_slide_description h2.et_pb_slide_title {
+    background: none!important;
+    min-width: 100%;
+    color: white!important;
+    font-size: 24px !important;
+    color: white;
+    text-align: left;
+}
+.Content_Slider .et_pb_slide_content:before {} .Content_Slider .et_pb_slide_content {
+    background: rgb(232, 78, 15);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    margin: 5px;
+    font-family: "acumin-pro" !important;
+    font-size: 18px !important;
+    font-weight: 300!important;
+    font-style: normal!important;
+    padding-bottom: 30px!important;
+}
+.et_pb_slide_description {
+    padding-right: 0;
+    margin-left: 40%;
+}
+.et_pb_container.clearfix {
+    /* min-height: 100vh!important;*/
+    
+    width: 100%;
+    margin: 0 auto 0 auto;
+    /* margin-left: 30%;*/
+}
+.et_pb_post_slider.et_pb_bg_layout_dark {
+    /*  Promo Slider Background (white)*/
+    
+    background: none !important;
+}
+/* END Promotion Styling */
+/* START News Styling */
+
+.news_header {
+	
+   
+    margin: 0 auto 0 auto;
+    padding: 6% !important;
+    text-align: center;
+}
+.news_wrapper {
+    display: table;
+}
+ul.news_table {
+    width: 100%;
+    float: left;
+    list-style: none;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+li.news_li {
+	max-width:33%;
+    float: left;
+    padding: 1%;
+}
+
+.news_locale {
+    font-style: italic!important;
+    font-size: small!important;
+}
+.news_title h3:after {
+    content: ':';
+}
+.news_title h3 {
+    font-size: initial;
+    font-weight: 600;
+    color: black!important;
+    min-height:100px;
+    }
+
+.news_more{
+    margin-bottom:20px;
+}
+
+.news_img img {
+    width: 100%;
+    height: 200px;
+}
+.news {
+    min-height: 608px;
+  
+    height: 580px;
+    
+}
+.news_excerpt p {
+    text-align: justify;
+    min-height: 200px;
+    margin-bottom: -10px;
+}
+@media screen and (max-width: 480px) {
+    td.wpv-loop.js-wpv-loop > td:nth-child(3) {
+        display: none;
+    }
+}
+/* END News Styling */
+/* START Jobs Styling */
+
+.col-sm-6 {
+    width: 33%;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+}
+/* END Jobs Styling */
+/* START Selection Styling */
+
+.select_table td {
+    min-width: 30vw;
+}
+.table_select {
+    min-width: 170%;
+    max-height: 96px!important;
+    z-index: 0;
+    line-height: 2em;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    background: #F05A22;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.25));
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.25));
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.25));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.25));
+    background-attachment: fixed;
+}
+.select_table tr {} img.aligncenter.wp-image-288.size-full {
+    padding: 0;
+    margin-bottom: 3vh;
+}
+/* END Selection Styling */
+/* START Solarprofis Styling */
+.Solarprofis {
+    font-size: 14px !important;
+}
+.Team_text.Solarprofis {
+    padding: 5px !important;
+}
+.Solarprofis.Team {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+.Solarprofis.Team_box {
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+}
+.Solarprofis.Team_overlay {
+    width: 180px;
+    height: 180px
+}
+.Solarprofis li.team_cell {
+    display: inline-block;
+    margin: 0 auto 0 auto !important;
+    /* width: 200px; */
+    padding: 1%;
+}
+/* END Solarprofis Styling */
+/* Alle Text-Shadows Deaktivieren*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-shadow: none !important;
+}
+.et_pb_bg_layout_dark .et_pb_slide_description {
+    text-shadow: none !important;
+}
+/* Alle Text-Shadows Deaktivieren END*/
+/*Herz und Mehr Button im Slider anpassen*/
+
+.fa-3x {
+    font-size: 50px !important;
+    float: left;
+    padding-right: 18px;
+    padding-left: 4px;
+}
+/*.et_pb_slide_content{
+    padding-top:30px!important;
+    padding-bottom:60px!important;
+}*/
+
+.content_Slider .et_pb_slide_content {
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+/*END Herz im Slider anpassen*/
+/*Sliderbug blaue Leiste beheben*/
+
+.et_pb_slider .et_pb_slide {
+    position: inherit !important;
+}
+/*END Sliderbug blaue Leiste beheben*/
+/*Logogroesse*/
+
+.et_pb_svg_logo #logo {
+    /* height: 60px !important;*/
+    
+    position: relative;
+    top: 0px;
+}
+/* END Logogroesse*/
+/* Menu Button Header */
+
+.PSMenu {
+    font-size: 12px;
+    color: green !important;
+    margin-top: -3px;
+    margin-bottom:5px;
+    padding: 0px;
+}
+.img.PSMenu {
+    color: green !important;
+}
+.PSMenu span {
+    margin-top: -2px;
+    margin-bottom: 6px;
+}
+/*END Menu Button Header */
+/* Mein Header Position*/
+
+#main-header {
+    top: 0px !important;
+}
+/* Slider Startseite Höhe 
+.et_pb_fullwidth_post_slider_0{
+    min-height:100vh!important;
+}
+*/
+/* Slider Startseite Höhe */
+
+.et_pb_fullwidth_post_slider_0 {} .et_pb_section_3 {
+    min-heigth: 0% !important;
+}
+.et_pb_section_2 {
+    min-heigth: 100% !important;
+}
+.et_pb_section_4 {
+    min-heigth: 0% !important;
+}
+/* Postion und Größe Slider Pfeile Beitragsslider*/
+
+.et-pb-arrow-prev,
+.et-pb-arrow-next {
+    font-size: 100px!important;
+    right: 40px!important;
+}
+.et_pb_row.et_pb_row_fullwidth,
+.et_pb_specialty_fullwidth > .et_pb_row {
+    width: 100%!important;
+    max-width: 100%!important;
+}
+/* Postion und Größe Slider Pfeile Beitragsslider ENDE*/
+/*Alle Buttons bekommen einen Rahmen und je nach Hintergrund eine andere Farbe*/
+
+.et_pb_promo_button {
+    border: 3px solid #ffffff!important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+.button_orange a {
+	color:#ff4900!important;
+    border: 3px solid #ff4900!important;
+    border-radius: 10px 10px 10px 10px!important;
+    -moz-border-radius: 10px 10px 10px 10px!important;
+    -webkit-border-radius: 10px 10px 10px 10px!important;
+}
+
+#button_orange h2{
+	 color:white!important;
+    border: 3px solid white!important;
+    border-radius: 10px 10px 10px 10px!important;
+    -moz-border-radius: 10px 10px 10px 10px!important;
+    -webkit-border-radius: 10px 10px 10px 10px!important;
+	color: rgba(232,78,15,1)!important;
+    border: 3px solid #ff4900!important;
+    max-width: 390px;
+    margin-left: 70px;
+    margin-top: 19px;
+    padding: 12px;
+}
+
+#button_orange:hover h2{
+	background-color: #f3f3f3;
+}
+
+.button_white a {
+    color:white!important;
+    border: 3px solid white!important;
+    border-radius: 10px 10px 10px 10px!important;
+    -moz-border-radius: 10px 10px 10px 10px!important;
+    -webkit-border-radius: 10px 10px 10px 10px!important;
+}
+
+#button_white_border_orange a{
+    border: 3px solid #ff4900!important;
+    border-radius: 10px 10px 10px 10px!important;
+    -moz-border-radius: 10px 10px 10px 10px!important;
+    -webkit-border-radius: 10px 10px 10px 10px!important;
+}
+
+/* Postion und Größe Slider Pfeile Beitragsslider ENDE*/
+/*Blurbs mit RollOver Button State im allgemeinen*/
+
+.click_blurb .et_pb_blurb_container a:hover {
+    border: 3px solid #ffffff!important;
+    border-radius: 10px 10px 10px 10px!important;
+    -moz-border-radius: 10px 10px 10px 10px!important;
+    -webkit-border-radius: 10px 10px 10px 10px!important;
+    padding: 10px!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+#rechnenSieNachGrafiken.et_pb_blurb_container {
+    font-size: 18px;
+}
+/*Startseite Kunden und GEschäftspartner CTA*/
+
+#handlungsaufruf_kunden {
+    margin-top: 0px;
+}
+
+#zufriedene_kunden_button {
+    margin-top:20px;
+}
+/*Startseite Kunden und GEschäftspartner CTA ENDE*/
+
+/*Blurbs mit RollOver Button State im allgemeinen END*/
+
+.clickable-row{
+	cursor:pointer;
+}
+
+/*InvestorenSeite*/
+/*Bereich 1*/
+
+#rechnenSieNachGrafiken img {
+    max-width: 50% !important;
+}
+/*Bereich 1 END*/
+/*bereich 3 stromproduzent*/
+
+#stromproduzent p {
+    text-align: justify;
+}
+
+#stromproduzent img {
+    
+   max-width:170%;
+   margin-top:20px;
+}
+
+/*bereich 3 stromproduzent END*/
+
+#stromproduzent h3 {
+    font-size: 18px!important;
+}
+
+#gute_gruende p {
+    font-size: 16px!important;
+    color:rgba(232,78,15,1)!important;
+    font-weight: 500!important;
+   
+}
+
+#gute_gruende et_pb_blurb_content{
+   /* background-color:white!important;*/
+    padding:25px;
+}
+
+#gute_gruende h1 {
+  
+    color:rgba(232,78,15,1)!important;
+   
+}
+
+#gute_gruende img {
+    max-width: 60%;
+}
+#gute_gruende h4 {
+    font-weight: 900!important;
+    font-size: 18px!important;
+    color: black!important;
+}
+#cta_faq p {
+    font-weight: 300!important;
+    font-size: 18px!important;
+    text-align: justify;
+}
+
+#in_guten_haenden h1, #in_guten_haenden h3{
+  color:rgb(232,78,15);
+    
+    
+}
+
+#in_guten_haenden .et_pb_promo_button{
+        min-width: 366px;
+}
+
+#in_guten_haenden h1{
+    font-size:55px!important;
+}
+
+#in_guten_haenden h2{
+    font-size:22px!important;
+    
+}
+
+
+#referenzen_text p{
+     -webkit-column-count: 2!important; /* Chrome, Safari, Opera */
+      -moz-column-count: 2!important; /* Firefox */
+    column-count: 2!important;
+    text-align: justify!important;
+   -webkit-column-gap: 25px!important; /* Chrome, Safari, Opera */
+    -moz-column-gap: 25px!important; /* Firefox */
+    column-gap: 25px!important;
+}
+.value {
+    float: left;
+}
+
+.value p {
+    display: -webkit-inline-box;
+}
+#wpcf-form-item-checkbox{
+    max-width: 100px;
+}
+
+
+#referenz_uebersicht a, #referenz_uebersicht p{
+    color:white!important; 
+}    
+
+#pfalzsolar_in_zahlen_headline{
+    margin-bottom:-80px;
+}
+
+
+#faq_seite img{
+    margin-top:30px;
+    max-width:200%;
+    
+}
+
+#faq_seite h2{
+    color:white;
+    font-size: 20px!important;
+}
+
+#faq_seite h3{
+    color:white;
+    font-size: 28px;
+}
+
+#pfalzwerke_info_text{
+    background-color: white;
+    max-width: 553px;
+    padding: 25px;
+}
+
+#in_guten_haenden_box{
+    padding: 25px;
+    background-color: rgba(0,0,0,0);
+    max-width: 522px;
+}
+
+#in_guten_haenden_box h1{
+    color:white;
+}
+
+#in_guten_haenden_box h2{
+    margin-top:-25px;
+    color:white;
+    font-size:23px!important;
+}
+
+#in_guten_haenden_btns .et_pb_button{
+	color:rgb(232,78,15);
+    background-color:white!important;
+}
+
+#kontakt_headline h1{
+    color:white!important;
+}
+
+#kontakt_daten{
+    color:white!important;
+    margin-top:72px
+}
+
+.et_pb_contact_right p{
+ color:white!important;   
+}
+
+#contact_form_01 .et_pb_button{
+ color:white!important;   
+}
+
+#headline_contact_dates{
+    font-size:34px!important;
+    line-height:30px!important;
+}
+
+/*warum sich guter Service auszahlt*/
+
+/* Energiewerber Werben*/
+
+#werber_headline{
+    padding:25px!important;
+}
+
+#werber_formular{
+    background-color:white!important;
+    padding:25px!important;
+}
+
+.werber_form{
+    float:left;
+    padding:25px;
+    min-width:50%;
+}
+
+ .werber_form input{
+    padding:15px;
+    width:98%;
+  
+}
+
+
+
+
+#werber_radio{
+    padding:25px;
+    min-width:90%;
+}
+#werber_content_03{
+    padding:25px;
+    min-width:90%;
+}
+
+#werber_content_03 textarea{
+    width:100%;
+}
+
+/* Energiewerber Werben END*/
+
+/*Karrier*/
+
+#header_jobs h3{
+font-size:30px !important;
+}
+
+#karriere_jobs .col-sm-6 {
+    min-height: 804px;
+}
+
+#karriere_jobs p {
+    min-height: 519px;
+    text-align: justify;
+}
+
+#karriere p{
+      -webkit-column-count: 2!important; /* Chrome, Safari, Opera */
+      -moz-column-count: 2!important; /* Firefox */
+    column-count: 2!important;
+    text-align: justify!important;
+   -webkit-column-gap: 25px!important; /* Chrome, Safari, Opera */
+    -moz-column-gap: 25px!important; /* Firefox */
+    column-gap: 25px!important;
+    
+}
+#karriere_jobs .col-sm-6{
+    border:1px lightgrey solid!important;
+    border-radius: 10px;
+    padding:5px;
+}
+
+#karriere_jobs h2 {
+	font-size:22px!important;
+	min-height: 84px;
+}
+
+#karriere_jobs p {
+	min-height:457px;
+	text-align:justify;
+}
+
+.job_link{
+	min-height:100px;
+}
+
+
+#karriere_jobs li {
+    list-style: none;
+    margin-left: -10px;
+    margin-bottom:3%;
+    
+}
+
+.col-sm-6{
+padding: 33px!important;	
+
+}
+
+
+#kunden_logos_wrap{
+        margin:0 auto;
+        min-width:101%;
+}
+
+#kunden_logos_wrap img.alignleft{
+    
+}
+
+/*Karrier END*/
+
+#pfalzwerke p span, #pfalzwerke h2 span{
+    background-color: rgba(255,255,255,0.85);
+   padding-left:10px;
+    padding-right:5px;
+    border-radius:5px;
+    
+}
+
+#presse_bild_cheffs img{
+    margin-top:-30px;
+}
+
+#presse_part_one{
+}
+
+#presse_news .et_pb_more_button et_pb_button, #presse_news .et_button_no_icon, #presse_news .et_pb_button{
+    color:white!important;
+}
+
+#presse_news p, #presse_news h1, #presse_news h2, #presse_news h3{
+    color:white!important;
+}
+
+#warum_service a {
+    font-size: 18px!important;
+    /*color:white!important;*/
+    
+}
+
+#warum_service a {
+    font-size: 18px!important;
+    
+    
+}
+#warum_service h1 span, #warum_service h2 span{
+    background-color:rgba(255,255,255,0.8);
+    border-radius: 5px;
+    padding-left:15px;
+    padding-right:15px;
+}
+#warum_service h1{
+    /*color:rgb(232,78,15)!important;*/
+    margin-bottom:+24px;
+
+}
+
+#warum_service h2{
+   /*color:rgb(232,78,15)!important;*/
+
+}
+
+#warum_service img{
+ max-width:170%;
+ margin-top:-30px;
+ margin-right:30px;
+}
+/*warum sich guter Service auszahlt END*/
+/*Start ReferenzenSlider Icons */
+
+#form-2587b67cb379bb320be46913a862f3bf-2,
+#form-4f1f454d6422ebf28b4a1a65cf446999-1 {
+    background-image: url('./images/privat.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 100000;
+    width: 40%;
+    height: 75px;
+    -webkit-appearance: none;
+}
+#form-2587b67cb379bb320be46913a862f3bf-2:checked,
+#form-4f1f454d6422ebf28b4a1a65cf446999-1:checked {
+    background-image: url('./images/privat_orange.png');
+    -webkit-appearance: none;
+}
+#form-1ba6fba801b3d7137e9a97c8f419fff7-6,
+#form-e4110c618a2a1d9dd2edcc6eb524d1fd-2 {
+    background-image: url('./images/firmen.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 100000;
+    width: 20%;
+    height: 75px;
+    -webkit-appearance: none;
+}
+#form-1ba6fba801b3d7137e9a97c8f419fff7-6:checked,
+#form-e4110c618a2a1d9dd2edcc6eb524d1fd-2:checked {
+    background-image: url('./images/firmen_orange.png');
+    -webkit-appearance: none;
+}
+#form-c20b58a83d64eb314467d2e7131e3b9c-4,
+#form-012c8d5bd05096d2ab6224edcda8bfb3-3 {
+    background-image: url('./images/solarfeld.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 100000;
+    width: 50%;
+    height: 75px;
+    -webkit-appearance: none;
+}
+#form-c20b58a83d64eb314467d2e7131e3b9c-4:checked,
+#form-012c8d5bd05096d2ab6224edcda8bfb3-3:checked {
+    background-image: url('./images/solarfeld_orange.png');
+    -webkit-appearance: none;
+}
+form.wpv-filter-form.js-wpv-filter-form.js-wpv-filter-form-1978.js-wpv-form-full.js-wpv-ajax-results-enabled {
+    height: 160px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.wpcf-checkboxes-group {
+    margin: 10px auto 0px auto;
+    display: flex;
+}
+.wpcf-checkboxes-group label {
+    margin: 5px auto;
+    align-self: baseline;
+    display: block;
+}
+.wpcf-form-item {
+    margin: 0 auto;
+}
+.select_spinner {
+    width: 150% !important;
+    height: 250% !important;
+    background: white;
+    border-radius: 10px;
+    opacity: 0.9;
+    z-index: 1000000;
+    position: relative;
+    left: -25%;
+    display: inline-flex;
+    align-items: center;
+    -webkit-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -moz-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -o-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    /* easeInOutCubic */
+}
+.select_spinner img {
+    background: white;
+    border-radius: 10px;
+    margin: 0 auto 0 auto;
+}
+/*END ReferenzenSlider Icons */
+
+/*PopUps Style*/
+/*
+
+.popmake-overlay.theme-1244, .popmake-overlay.theme-standard-theme{
+    background-color:rgba( 0, 0, 0, 0.6)!important;
+}
+
+.popmake.theme-1244, .popmake.theme-standard-theme{
+    padding:30px!important;
+    border-radius:15px!important;
+}
+*/
+
+.popmake-close{
+    background-color:rgb(232,78,15)!important;
+}
+.popmake-content p{
+    -webkit-column-count: 1!important; /* Chrome, Safari, Opera */
+    -moz-column-count: 1!important; /* Firefox */
+    column-count: 1!important;
+    text-align: justify!important;
+-webkit-column-gap: 25px!important; /* Chrome, Safari, Opera */
+    -moz-column-gap: 25px!important; /* Firefox */
+    column-gap: 25px!important;
+}
+
+
+/*PopUps Style Leistungen Sepcial*/
+#popmake-1270 p{
+    -webkit-column-count: 1!important; /* Chrome, Safari, Opera */
+    -moz-column-count: 1!important; /* Firefox */
+    column-count: 1!important;
+    margin-left:25px;
+    
+}
+
+#popmake-1270 h5{
+    margin-top:20px;
+    color:rgb(232,78,15);
+    margin-left:15px;
+}
+/*PopUps Style Leistungen Sepcial END*/
+
+
+/*PopUps Style Services Sepcial*/
+#popmake-1281 h5{
+    margin-top:20px;
+    margin-left:15px;
+}
+
+
+#popmake-1281 strong{
+    color:rgb(232,78,15);
+}
+
+#popmake-1281 p{
+    -webkit-column-count: 1!important; /* Chrome, Safari, Opera */
+    -moz-column-count: 1!important; /* Firefox */
+    column-count: 1!important;
+    margin-left:25px;
+    
+}
+
+
+/*PopUps Style Services Sepcial END*/
+
+/*PopUps Style END*/
+
+
+/*Neu Bei PFazsolar*/
+
+
+
+#neu_bei_pfalzsolar .et_pb_text_1, #neu_bei_pfalzsolar .et_pb_text_2{
+	border:0px;
+    border-radius: 10px;
+	
+	
+}
+
+#neu_bei_pfalzsolar p{
+	text-align:center;
+	color:white;
+	font-size:50px;
+}
+
+#neu_bei_pfalzsolar h2, #neu_bei_pfalzsolar h5{
+	text-align:center!important;
+}
+
+#neu_bei_pfalzsolar h2{
+	padding-bottom:5px;
+}
+
+#neu_bei_pfalzsolar .et_pb_text_2 h2{
+	font-size:55px!important;
+	 color:rgb(232,78,15);
+	     padding-bottom: 0px!important;
+}
+
+#neu_bei_pfalzsolar .et_pb_text_2 p{
+    font-size: 16px!important;
+    color: grey;
+    margin-bottom: -10px;
+}
+
+#neu_bei_pfalzsolar .et_pb_text_2 a{
+    font-size: 20px!important;
+    margin-bottom:10px;
+    margin-top:5px;
+    text-transform:uppercase;
+    border-bottom:1px solid;
+    font-weight: 900;
+}
+
+
+
+/*Über uns*/
+
+#bild_cheffs_section{
+    margin-bottom: -5px!important;
+}
+
+#heger_mit_panel img{
+    max-width:170%!important
+}
+
+#wir_sind_blurb_container{
+    margin-left:35px;
+    margin-top:130px!important;
+}
+
+/*Über uns END*/
+
+
+/* Navigations Super Menu FIX */
+.nav li ul{
+    margin-top:-5px!important;
+    border-color:white!important;
+}
+
+.menu_wir_sind{
+	padding-left:20px!important;
+}
+
+
+/* Navigations Super Menu FIX END */
+
+.et_pb_column_4_4 .et_pb_grid_item{
+    width:23%;
+    margin:0 2% 0 0;
+}
+
+/*Footer*/
+
+.textwidget{
+    margin-top:-30px;
+    margin-bottom:-20px;
+}
+
+
+.textwidget li{
+	list-style:none;
+}
+
+.textwidget li:first-child{
+    font-size:20px;
+}
+
+.textwidget a{
+    color:white!important;
+    text-decoration: underline!important;
+}
+
+#footer_spalte_02 li:first-child, #footer_spalte_03 li:first-child, #footer_spalte_04 li:first-child{
+    visibility: hidden;
+}
+
+#footer_spalte_03{
+	padding-left:75px;	
+}
+
+#footer_logo{
+   
+    z-index: 9999999;
+}
+
+
+
+.footer_spalten{
+    color:white!important;
+    
+}
+
+.footer_spalten li{
+    color:white;
+    list-style-type:none;
+    
+    
+}
+
+
+
+/*Footer END*/
+
+
+/*PDF DOWNLOAD Buttons auf der Presse Seite*/
+#pdf_downloads img{
+    max-width:75px;
+
+}
+
+/*PDF DOWNLOAD Buttons auf der Presse Seite END*/
+
+/* START MENU FIX*/
+li.mega-menu > ul {
+    position: absolute !important;
+    left: 0 !important;
+    top: 5px;
+    width: 100%;
+    padding: 50px 30px 20px 20px;
+    z-index: 100;
+}
+
+/*END MENU FIX*/
+
+.scroll-down{
+        font-size: 20px!important;
+        padding-bottom: 50%!important;
+   
+}
+
+
+#logo_startseite{
+    float:center;
+    text-align: center!important;
+    max-width: 1200px;
+    /* margin-top: 46px; */
+    padding: 50px;
+}
+
+
+#top-menu li.mega-menu > ul > li > a:first-child {
+    border-left: solid 2px lightgrey!important;
+}
+
+
+.footer_new .et_pb_column_1_4{
+        width:20%;
+}
+
+#footer_spalte_02{
+    min-width:265px;
+}
+
+.presse_downloads_pdf{
+    margin:20px!important;
+}
+/*Übersichtskarte Tabs Legende*/
+#karte_legende li{
+    padding-top:10px;
+    padding-bottom:15px;
+    min-width:127px;
+    /*border:1px solid red;*/
+    
+}
+.et_pb_tab_active{
+    background-color:rgb(232,78,15)!important;
+}
+
+
+.et_pb_tab_active a{
+color:white!important;
+}
+
+#karte_legende{
+    margin-top:23%;
+  
+}
+
+#karte_legende .et_pb_tab_3{
+    border:0px!important;
+}
+#karte_legende div{
+  border:0px!important;
+}
+
+/*-----------------------RESPONSIV----------------------------------------*/
+
+/* Responsive Styles Tablet*/
+@media all and (max-width: 1024px) {
+  #karriere_jobs h2 {
+    font-size: 19px!important;
+    min-height: 84px;
+}
+
+
+#karriere_jobs .col-sm-6 {
+    min-height: 678px;
+}
+
+
+.col-sm-6 {
+    width: 50%;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+
+}
+
+#karriere_jobs p {
+    min-height: 400px; 
+    text-align: justify;
+}
+
+
+/*Footer*/
+.textwidget li:first-child {
+    font-size: 16px;
+}
+
+
+/*footer END */
+
+/*Übersichtskarte Tabs Legende END*/
+
+/*PopUp English*/
+.popmake-om-services h5, .pum-content h5{
+	margin-top:15px;
+}
+
+/*START RESPONSIVE*/
+/* Responsive Styles  Desktop */
+@media all and (max-width: 982px) {
+
+/*Pricing table Vericherung*/
+
+.et_pb_column .et_pb_pricing_table{
+	width:100%!important;
+}
+#versicherungen_style .et_pb_pricing_table{
+	margin-top:15px!importants;
+}
+
+
+
+/*Pricing table Vericherung END*/
+
+h1{
+    font-size: 30px !important;
+}
+
+.PSMenu{
+display: none;
+}
+li.mega-menu>ul{
+        background: white!important;
+}
+
+img.PSMenu {
+    display: none;
+    min-width: 0px!important;
+}
+
+.table_select h2{
+	font-size:22px!important;
+	max-width:230px;
+    
+}
+
+li.news_li {
+	max-width:50%;
+    float: left;
+    padding: 1%;
+}
+
+}
+
+
+
+
+/* Responsive Styles Tablet*/
+@media all and (min-width: 650px) and (max-width: 980px) {
+	#in_guten_haenden .et_pb_promo_button {
+    min-width: 300px;
+}
+ 
+/*Karriere*/
+
+#karriere p {
+    -webkit-column-count: 1!important;
+    -moz-column-count: 1!important;
+    column-count: 1!important;
+    text-align: justify!important;
+   
+}
+
+#karriere_jobs .col-sm-6 {
+    min-height: 0px;
+}
+
+#karriere_jobs p {
+    min-height: 0px;
+    text-align: justify;
+}
+
+
+.col-sm-6 {
+    width: 100% !important;
+}
+
+.col-sm-6 p{
+text-align: justify!important;
+}
+
+.col-sm-6 h2{
+font-size:22px !important
+}
+
+/*Karriere ENDE*/
+ 
+ /*startseite*/
+/*We Are*/
+
+.We_are_text {
+    /* margin-right: 21%; */
+    margin-top: 5vh;
+    width: 100%;
+}
+.We_are_text {
+    margin-left:0%;
+    /* margin-top: 5vh; */
+    width: 100%;
+}
+
+.et_pb_slide_description {
+    /* padding-right: 0; */
+    margin-left: 0%;
+}
+
+.table_select h2 {
+    font-size: 20px!important;
+    max-width: 230px;
+}
+
+/*We Are END*/
+ 
+/*Startseite News*/    
+.news_excerpt p {
+    min-height: 238px;
+}    
+
+.news {
+    min-height: 652px;
+}
+
+/*Startseite News END*/
+
+/*footer */
+#footer_spalte_01{
+	margin-top:30px;
+}
+
+#footer_spalte_03 {
+ padding-left:0px;
+}
+
+/*Energiewender werben*/
+	#werber_headline {
+    padding: 0px!important;
+    text-align: -webkit-center;
+    white-space: nowrap;
+    width: 100%;
+    margin: 0 auto;
+    font-size: xx-large !important;
+}
+	/*end werben*/
+    
+}
+
+
+/* Responsive Styles Smartphone */
+@media all and (max-width: 650px){
+
+/*Versicherung*/
+
+.contact_form_versicherung{
+
+	float:none;
+	width:100%;
+}
+
+#formular_verlaengerung h3{
+	font-size:14px;
+
+}
+
+#versicherungen_style h2{
+font-size: 24px !important;
+}
+
+#versicherungen_style h4{
+	text-align: left;
+}
+
+#versicherung_radio span{
+	float:left!important;
+	margin-bottom:5px;
+
+}
+
+.button_white a{
+	font-size:16px;
+}
+
+/*Versicherung END*/
+
+
+
+#in_guten_haenden .et_pb_promo_button {
+    min-width: 250px;
+}
+.Content_Slider .et_pb_slide_content:before {} .Content_Slider .et_pb_slide_content {
+
+    text-align: left!important;
+}
+
+/*Karriere*/
+
+#karriere_jobs p {
+    min-height: 0px;
+    text-align: justify;
+}
+
+
+#karriere p {
+    -webkit-column-count: 1!important;
+    -moz-column-count: 1!important;
+    column-count: 1!important;
+    text-align: justify!important;
+}
+
+.col-sm-6 {
+    width: 100% !important;
+}
+
+.col-sm-6 p{
+text-align: justify!important;
+}
+
+.col-sm-6 h2{
+font-size:22px !important
+}
+
+/*Karriere ENDE*/
+
+li.news_li {
+	max-width:100%;
+    float: left;
+    padding: 1%;
+}
+
+
+
+/*startseite*/
+/*We Are*/
+
+.We_are_text {
+    /* margin-right: 21%; */
+    margin-top: 5vh;
+    width: 100%;
+}
+.We_are_text {
+    margin-left:0%;
+    /* margin-top: 5vh; */
+    width: 100%;
+}
+
+/*We Are END*/
+
+/*footer */
+#footer_spalte_01{
+	margin-top:30px;
+}
+
+#footer_spalte_03 {
+ padding-left:0px;
+}
+
+
+
+/*footer END */
+/*Energiewender werben*/
+	#werber_headline {
+    padding: 0px!important;
+    text-align: -webkit-center;
+    white-space: nowrap;
+    width: 100%;
+    margin: 0 auto;
+    font-size: x-large !important;
+}
+	/*end werben*/
+}
+/* Responsive Styles Smartphone */
+@media all and (max-width: 479px) {
+	/*Energiewender werben*/
+	#werber_headline {
+    padding: 0px!important;
+    text-align: -webkit-center;
+    white-space: nowrap;
+    width: 100%;
+    margin: 0 auto;
+    font-size: large !important;
+}
+	/*end werben*/
+	
+
+
+
+
+	
+	
+/*Referenzen start*/
+
+.et_pb_column .et_pb_filterable_portfolio .et_pb_portfolio_filters li {
+    width: 100%!important;
+}
+.et_pb_filterable_portfolio_grid .et_pb_portfolio_item.et_pb_grid_item:nth-child(n).first_in_row {
+    clear: both !important;
+    text-align: center;
+}
+/*Referenzen ende*/
+
+/*Investors*/
+.et_pb_text_1, .et_pb_text_5,.et_pb_text_3 {
+    -webkit-column-count: 1!important;
+    -moz-column-count: 1!important;
+    column-count: 1!important;
+}	
+/*Investors ende*/
+	
+/*	Privatkunden*/
+/* Privatgrid*/
+li.masonry_grid {
+    float: left;
+    list-style: none;
+}
+
+
+#heger_mit_panel img {
+     max-width: 100%!important;
+}
+#stromproduzent img {
+     max-width: 100%;
+    margin-top: 20px;
+}	
+.et_pb_text_8 {
+    padding-left: 0px !important;
+}
+.et_pb_text_3 {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+/*Privatkunden ende*/
+/*Karriere*/
+
+#karriere_jobs .col-sm-6 {
+    min-height: 0px;
+}
+
+#karriere_jobs .col-sm-6{
+	
+	 border: 0px lightgrey!important;
+}
+
+#karriere_jobs p {
+    min-height: 0px;
+    text-align: justify;
+}
+
+
+#karriere p {
+    -webkit-column-count: 1!important;
+    -moz-column-count: 1!important;
+    column-count: 1!important;
+    text-align: justify!important;
+}
+
+.col-sm-6 {
+	padding:0px!important;
+    width: 100% !important;
+    margin:0px!important;
+        margin-bottom: 54px!important;
+}
+
+.col-sm-6 p{
+text-align: justify!important;
+}
+
+
+
+#header_jobs h3{
+font-size:30px !important;
+}
+
+#karriere_jobs .col-sm-6 {
+ 
+    margin-left: -9px!important;
+}
+
+
+#karriere_jobs h2{
+font-size:22px !important;
+}
+
+
+
+/*Karriere ENDE*/
+	
+.et_pb_bg_layout_dark .et_pb_slide_description {
+    text-shadow: none !important;
+    min-width: 100%!important;
+    margin: 0 auto;
+}
+p.We_are_text {
+    text-align: justify;
+    width: 100%;
+}
+
+li.news_li {
+	max-width:100%;
+    float: left;
+    padding: 1%;
+}
+
+/*Startseite*/
+/*Startseite Wonach suchen Sie?*/
+img.alignright {
+    display: inline;
+    float: right;
+    margin-right: 35px;
+}
+
+.table_select h2 {
+    font-size: 18px!important;
+    max-width: 230px;
+}
+/*Startseite Wonach suchen Sie? END*/
+
+
+/*Startseite TeamBilder*/
+.Team_box {
+   	margin-left: -19px;
+    width: 250px;
+    height: 251px;
+   
+}
+
+/*Startseite TeamBilder END*/
+
+
+/*Startseite NEWS*/
+.news {
+    min-height: 681px;
+   
+}
+/*Startseite NEWS END*/
+
+
+/*footer */
+#footer_spalte_01{
+	margin-top:30px;
+}
+
+#footer_spalte_03 {
+ padding-left:0px;
+}
+
+
+
+/*footer END */
+}
+
+
+
+
+
+

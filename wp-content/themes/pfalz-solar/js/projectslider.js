@@ -1,0 +1,1 @@
+function projectslider(){jQuery(".slider").slick({rows:2,slidesPerRow:2,dots:!1,infinite:!0,speed:1500,autoplay:!1,autoplaySpeed:7500,arrows:!0,easing:"easeInOutBack",slidesToShow:1,slidesToScroll:1})}jQuery(document).ready(function(){projectslider()});
